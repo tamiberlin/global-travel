@@ -35,7 +35,7 @@ export default function Navigator() {
                 <Link class="nav-link" to="/showCart" >Cart</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="./login.js" >login</Link>
+                <Link class="nav-link" to="./login" >login</Link>
               </li>
             </ul>
           </div>
