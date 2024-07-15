@@ -16,6 +16,7 @@ import Attractions from './store/attractions';
 import Login from './login';
 import Register from './register';
 import TourDetails from './store/tour_details';
+import Tours from './store/selfOrgenizedTours';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
               <Route exact path="/login" element={<Login/>}/>
               <Route exact path="/register" element={<Register/>}/>
               <Route exact path="/tour_details" element={<TourDetails/>} />
+              <Route exact path="/selfOrgenizedTours" element={<Tours/>} />
              </Routes>
              <Footer />
           </Provider>

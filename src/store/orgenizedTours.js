@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router-dom';
 import {
     MDBCard,
     MDBCardImage,
@@ -90,10 +90,6 @@ function OrgenizedTours(){
       </MDBCol>
     </MDBRow>
     </MDBContainer>
-
-
-
-
         </>
     );
 }

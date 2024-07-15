@@ -92,6 +92,9 @@ export default function Footer() {
               <li className="nav-item">
                 <Link className="nav-link" to="/login">Login</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/selfOrgenizedTours">Tours</Link>
+              </li>
             </ul>
             <div className="social-icons">
               <a href="https://facebook.com" className="mx-1">

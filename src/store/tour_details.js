@@ -6,7 +6,8 @@ import {
   MDBCardTitle,
   MDBCardText,
   MDBCardImage,
-  MDBContainer
+  MDBContainer,
+  MDBBtn
 } from 'mdb-react-ui-kit';
 
 
@@ -26,6 +27,9 @@ function TourDetails() {
             <small className='text-muted'>Last updated 3 mins ago</small>
           </MDBCardText>
         </MDBCardBody>
+        <MDBBtn  className='mx-2' toggle>
+          Book Now
+        </MDBBtn>
       </MDBCard>
       </MDBContainer>
     </>
